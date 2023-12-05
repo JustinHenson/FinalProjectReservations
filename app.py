@@ -68,3 +68,5 @@ if __name__ == '__main__':
     if os.environ.get('WERKZEUG_RUN_MAIN') == 'true':
         threading.Timer(1.25, open_browser).start()
     app.run(debug=True)
+
+app.run(host="0.0.0.0")
