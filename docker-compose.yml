@@ -11,4 +11,4 @@ services:
     volumes:
       - .:/app
     environment:
-      PROJECT3_DEBUG: "1"
+      FINALPROJECT_DEBUG: "1"
